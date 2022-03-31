@@ -1,71 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
-:root{
-    --White: hsl(0, 0%, 100%);
-    --LightGrey: hsl(217, 12%, 63%);
-    --MediumGrey: hsl(216, 12%, 54%);
-    --DarkBlue: hsl(213, 19%, 18%);
-    --VeryDarkBlue: hsl(216, 12%, 8%);
-    --Orange: hsl(25, 97%, 53%);
+:root {
+  --White: hsl(0, 0%, 100%);
+  --LightGrey: hsl(217, 12%, 63%);
+  --MediumGrey: hsl(216, 12%, 54%);
+  --DarkBlue: hsl(213, 19%, 18%);
+  --VeryDarkBlue: hsl(216, 12%, 8%);
+  --Orange: hsl(25, 97%, 53%);
 }
-html, body {
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-    font-family: Overpass;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Overpass;
 }
 
 body {
-    background-color: var(--VeryDarkBlue);
-    height: 100vh;
+  background-color: var(--VeryDarkBlue);
+  height: 100vh;
 }
 
 .card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
 
 .card-component {
-    background-color: white;  
-    width: 26rem;
-    height: 24rem;
-    border-radius: 12px;
-    display:flex;
-    flex-direction: column;
+  background-color: var(--DarkBlue);
+  width: 26rem;
+  height: 24rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
 }
 
 .star-container {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: red;
-    text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--VeryDarkBlue);
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .star-image {
-    margin-top: 6px;
+  margin-top: 6px;
 }
 
 .description {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  color: white;
+  width: 100%;
+  margin-top: 1rem;
 }
 
 .rating {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.rating-button {
+  color: var(--LightGrey);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  background-color: var(--MediumGrey);
+  border: none;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.button-container {
+  margin-top: 2rem;
+  display: flex;
+}
 .submit-button {
-    width:70%;
-    margin: 0 auto;
-    background-color: var(--Orange);
-    border-radius: 12px;
-    padding: 8px;
-    border: none;
-    color: var(--White);
+  width: 70%;
+  margin: 0 auto;
+  background-color: var(--Orange);
+  border-radius: 12px;
+  padding: 8px;
+  border: none;
+  color: var(--White);
 }
