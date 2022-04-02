@@ -31,31 +31,44 @@ body {
   align-items: center;
 }
 
-.card-container .card-component {
+.card-component {
   background-color: var(--DarkBlue);
   width: 87%;
   border-radius: 1.5rem;
   padding: 2.4rem;
 }
 
-h1 {
-  color: var(--White);
-}
-/* .header {
-  background-color: var(--MediumGrey);
+.header {
+  background-color: var(--VeryDarkBlue);
   width: fit-content;
   padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .star-image {
-  margin-top: 6px;
+  width: 1.2rem;
+  height: 1.2rem;
 }
 
 .description {
-  color: white;
-  width: 100%;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
 }
+
+h1 {
+  color: var(--White);
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: var(--LightGrey);
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
 
 .rating {
   display: flex;
@@ -67,24 +80,29 @@ h1 {
 .rating-button {
   color: var(--LightGrey);
   border-radius: 50%;
-  height: 35px;
-  width: 35px;
-  background-color: var(--MediumGrey);
+  height: 4rem;
+  width: 4rem;
+  background-color: var(--VeryDarkBlue);
   border: none;
   margin-top: 2rem;
   font-weight: 700;
 }
 
+
 .button-container {
-  margin-top: 2rem;
+  margin-top: 2.8rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .submit-button {
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
   background-color: var(--Orange);
-  border-radius: 12px;
-  padding: 8px;
+  border-radius: 1.5rem;
+  padding: 1rem;
   border: none;
   color: var(--White);
-} */
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
