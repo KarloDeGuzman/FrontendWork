@@ -5,7 +5,7 @@
   --MediumGrey: hsl(216, 12%, 54%);
   --DarkBlue: hsl(215, 29%, 15%);
   --VeryDarkBlue: hsla(216, 12%, 8%);
-  --Orange: hsl(25, 97%, 53%);
+  --Orange: hsl(22, 95%, 53%);
 }
 
 * {
@@ -41,7 +41,7 @@ body {
 .header {
   background-color: var(--VeryDarkBlue);
   width: fit-content;
-  padding: 1rem;
+  padding: 1.4rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -49,8 +49,8 @@ body {
 }
 
 .star-image {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.3rem;
+  height: 1.3rem;
 }
 
 .description {
@@ -59,16 +59,18 @@ body {
 
 h1 {
   color: var(--White);
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
 }
 
 p {
   color: var(--LightGrey);
-  line-height: 1.8rem;
-  font-size: 1.2rem;
+  line-height: 2rem;
+  font-size: 1.4rem;
   text-align: left;
 }
-
 
 .rating {
   display: flex;
@@ -84,10 +86,9 @@ p {
   width: 4rem;
   background-color: var(--VeryDarkBlue);
   border: none;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   font-weight: 700;
 }
-
 
 .button-container {
   margin-top: 2.8rem;
@@ -98,11 +99,13 @@ p {
 .submit-button {
   width: 100%;
   background-color: var(--Orange);
-  border-radius: 1.5rem;
-  padding: 1rem;
+  border-radius: 2rem;
+  padding: 1.5rem;
   border: none;
   color: var(--White);
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
   letter-spacing: 0.2rem;
 }
+
+/* Submitted Component */
