@@ -4,6 +4,7 @@
   --LightGrey: hsl(217, 12%, 63%);
   --MediumGrey: hsl(216, 12%, 54%);
   --DarkBlue: hsl(215, 29%, 15%);
+  --LightDarkBlue: hsla(212, 20%, 25%, 0.5);
   --VeryDarkBlue: hsla(216, 12%, 8%);
   --Orange: hsl(22, 95%, 53%);
   --LighterOrange: hsl(22, 60%, 50%);
@@ -41,7 +42,7 @@ body {
 }
 
 .header {
-  background-color: var(--VeryDarkBlue);
+  background-color: var(--LightDarkBlue);
   width: fit-content;
   padding: 1.4rem;
   border-radius: 50%;
@@ -87,7 +88,7 @@ p {
   border-radius: 50%;
   height: 4.5rem;
   width: 4.5rem;
-  background-color: var(--VeryDarkBlue);
+  background-color: var(--LightDarkBlue);
   border: none;
   margin-top: 2.5rem;
   font-weight: 700;
