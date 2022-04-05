@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="card-container">
-      <div class="card-component">
+      <div id="initial-component" class="card-component">
         <div class="header">
           <img src="./images/icon-star.svg" class="star-image" />
         </div>
@@ -33,28 +33,26 @@
         </div>
       </div>
 
-      <!-- <div class="submitted-component">
-        <div class="header">
-          <img src="./images/illustration-thank-you.svg" class="star-image" />
+      <!-- submission component -->
+      <div id="submission-component" class="card-component">
+        <div class="submitted-image-container">
+          <img
+            src="./images/illustration-thank-you.svg"
+            class="submitted-image"
+          />
         </div>
-        <div class="description">
-          <h1>How did we do?</h1>
+
+        <div class="selection-wrapper">
+          <p class="selection-output">You selected 2 out of 5</p>
+        </div>
+        <div class="submitted-text-description">
+          <h1>Thank you!</h1>
           <p>
-            Please let us know how we did with your support request. All
-            feedback is appreciated to help us improve our offering!
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don't hesitate to get in touch!
           </p>
         </div>
-        <div class="rating">
-          <button id="rating-1" class="rating-button">1</button>
-          <button id="rating-2" class="rating-button">2</button>
-          <button id="rating-3" class="rating-button">3</button>
-          <button id="rating-4" class="rating-button">4</button>
-          <button id="rating-5" class="rating-button">5</button>
-        </div>
-        <div class="button-container">
-          <button class="submit-button">SUBMIT</button>
-        </div>
-      </div> -->
+      </div>
     </div>
   </body>
 </html>
