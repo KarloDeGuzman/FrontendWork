@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 :root {
   --White: hsl(0, 0%, 100%);
   --LightGrey: hsl(217, 12%, 63%);
@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: "Overpass", sans-serif;
+  font-family: 'Overpass', sans-serif;
   background-color: var(--VeryDarkBlue);
 }
 
@@ -97,9 +97,10 @@ p {
 .rating-button:hover {
   background-color: var(--Orange);
   color: white;
+  cursor: pointer;
 }
 
-.rating-button:active {
+.active {
   background-color: var(--LightGrey);
   color: white;
 }
@@ -121,15 +122,17 @@ p {
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
   margin-bottom: 0.8rem;
+  border-style: none;
 }
 
-.submit-button:active {
+.submit-button:hover {
   background-color: white;
   color: var(--Orange);
+  cursor: pointer;
 }
 
 /* Submitted Component */
-#submission-component {
+.submission-component {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -165,6 +168,10 @@ p {
 .submitted-text-description p {
   text-align: center;
   padding: 1.5rem;
+}
+
+.hide {
+  display: none;
 }
 
 /* Media Queries */

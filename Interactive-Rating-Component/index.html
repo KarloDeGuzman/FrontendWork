@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="./script.js"></script>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -34,7 +33,10 @@
       </div>
 
       <!-- submission component -->
-      <div id="submission-component" class="card-component">
+      <div
+        id="submission-component"
+        class="card-component submission-component hide"
+      >
         <div class="submitted-image-container">
           <img
             src="./images/illustration-thank-you.svg"
@@ -43,7 +45,9 @@
         </div>
 
         <div class="selection-wrapper">
-          <p class="selection-output">You selected 2 out of 5</p>
+          <p class="selection-output">
+            You selected <span class="result">2</span> out of 5
+          </p>
         </div>
         <div class="submitted-text-description">
           <h1>Thank you!</h1>
@@ -54,5 +58,7 @@
         </div>
       </div>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
