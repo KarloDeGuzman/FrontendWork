@@ -27,8 +27,9 @@ body {
 
   .card-component {
     width: 86%;
-    border-radius: 2.5rem;
+    border-radius: 1.5rem;
     padding: 1.8rem;
+    max-width: 32rem;
     background-color: $white-color;
 
     .card-image-container {
