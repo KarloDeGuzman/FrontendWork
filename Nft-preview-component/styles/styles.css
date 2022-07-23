@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+.card-container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d192b;
+}
+
+.card-container .card-component {
+  width: 86%;
+  border-radius: 1.5rem;
+  padding: 1.8rem;
+  max-width: 32rem;
+  background-color: #14253d;
+}
+
+.card-container .card-component .line-separator {
+  background-color: #2f415b;
+  border: none;
+  height: 2px;
+}
+
+.card-container .card-component .card-image-container {
+  position: relative;
+}
+
+.card-container .card-component .card-image-container .card-image {
+  border-radius: 1rem;
+  width: 28rem;
+  height: 28rem;
+  display: block;
+}
+
+.card-container .card-component .card-image-container .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 98%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  background-color: #00fff765;
+  border-radius: 1rem;
+}
+
+.card-container .card-component .card-image-container .view-overlay {
+  display: block;
+  color: white;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-container .card-component .card-image-container:hover .overlay {
+  opacity: 1;
+}
+
+.card-container .card-component .text-description-container .text-heading {
+  padding-top: 1.5rem;
+  color: white;
+}
+
+.card-container .card-component .text-description-container .text-heading:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.card-container .card-component .text-description-container .text-description {
+  padding-top: 1.5rem;
+  color: #8bacda;
+  font-size: 1.5rem;
+}
+
+.card-container .card-component .utility-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.6rem 0rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-container .card-component .utility-container .image-price-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 6px;
+}
+
+.card-container .card-component .utility-container .eth-image {
+  height: 15px;
+  width: 12px;
+}
+
+.card-container .card-component .utility-container .image-price {
+  color: #00fff7;
+  font-size: 1.2rem;
+}
+
+.card-container .card-component .utility-container .time-left-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 6px;
+}
+
+.card-container .card-component .utility-container .time-left-container .clock-image {
+  height: 15px;
+  width: 15px;
+}
+
+.card-container .card-component .utility-container .time-left-container .time-left {
+  color: #8bacda;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.card-container .card-component .footer-container {
+  padding-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.card-container .card-component .footer-container .creator-image-container img {
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.card-container .card-component .footer-container .creator-description {
+  color: #8bacda;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.card-container .card-component .footer-container .creator-name {
+  color: white;
+}
+
+.card-container .card-component .footer-container .creator-name:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
