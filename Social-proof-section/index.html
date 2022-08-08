@@ -15,15 +15,18 @@
     />
   </head>
   <body>
-    <section id="heroSection">
-      <div class="flex flex-col">
+    <section
+      id="heroSection"
+      class="max-w-[68rem] mx-auto flex flex-col justify-center items-center lg:flex-row lg:place-content-between lg:mt-72"
+    >
+      <div class="flex flex-col lg:justify-self-start">
         <h1
-          class="text-veryDarkMagenta font-spartan font-[700] text-4xl text-center mx-auto w-[15rem] mt-16 mb-5 leading-7 tracking-tighter"
+          class="text-veryDarkMagenta font-spartan font-[700] text-4xl text-center mx-auto w-[15rem] mt-16 mb-5 leading-7 tracking-tighter md:text-5xl lg:text-left lg:w-[25rem] lg:text-6xl"
         >
           10,000+ of our users love our products.
         </h1>
         <p
-          class="text-darkGrayishMagenta font-spartan font-medium text-center mx-auto w-[18.8rem] mb-8"
+          class="text-darkGrayishMagenta font-spartan font-medium text-center mx-auto w-[18.8rem] mb-8 lg:text-left lg:mx-0 lg:text-[1.2rem] lg:w-[25rem]"
         >
           We only provide great products combined with excellent customer
           service. See what our satisfied customers are saying about our
@@ -31,12 +34,14 @@
         </p>
       </div>
 
-      <div id="RatingsSection" class="justify-center items-center">
+      <div id="RatingsSection" class="lg:self-center">
         <div
           id="ReviewsContainer"
-          class="bg-lightGrayishMagenta container flex flex-col w-[20rem] mx-auto rounded-md mb-3"
+          class="bg-lightGrayishMagenta container flex flex-col w-[20rem] mx-auto rounded-md mb-3 lg:flex-row lg:w-[25rem] lg:items-center lg:justify-center lg:h-12 lg:-translate-x-14"
         >
-          <div class="flex flex-row items-center justify-center gap-2 m-1 p-2">
+          <div
+            class="flex flex-row items-center justify-center gap-2 m-1 p-2 lg:p-1 lg:m-0 lg:mr-5"
+          >
             <img src="./images/icon-star.svg" alt="star-icon" />
             <img src="./images/icon-star.svg" alt="star-icon" />
             <img src="./images/icon-star.svg" alt="star-icon" />
@@ -44,16 +49,18 @@
             <img src="./images/icon-star.svg" alt="star-icon" />
           </div>
           <p
-            class="text-veryDarkMagenta font-bold font-spartan text-center pb-2"
+            class="text-veryDarkMagenta font-bold font-spartan text-center pb-2 lg:pb-0 lg:pt-[0.3rem] lg:text-[1.2rem]"
           >
             Rated 5 Stars in Reviews
           </p>
         </div>
         <div
           id="ReportGuruContainer"
-          class="bg-lightGrayishMagenta container flex flex-col w-[20rem] mx-auto rounded-md mb-3"
+          class="bg-lightGrayishMagenta container flex flex-col w-[20rem] mx-auto rounded-md mb-3 lg:flex-row lg:w-[25rem] lg:items-center lg:justify-center lg:h-12 lg:-translate-x-8"
         >
-          <div class="flex flex-row items-center justify-center gap-2 m-1 p-2">
+          <div
+            class="flex flex-row items-center justify-center gap-2 m-1 p-2 lg:p-1 lg:m-0 lg:mr-5"
+          >
             <img src="./images/icon-star.svg" alt="star-icon" />
             <img src="./images/icon-star.svg" alt="star-icon" />
             <img src="./images/icon-star.svg" alt="star-icon" />
@@ -61,16 +68,18 @@
             <img src="./images/icon-star.svg" alt="star-icon" />
           </div>
           <p
-            class="text-veryDarkMagenta font-bold font-spartan text-center pb-2"
+            class="text-veryDarkMagenta font-bold font-spartan text-center pb-2 lg:pb-0 lg:pt-[0.3rem] lg:text-[1.2rem]"
           >
             Rated 5 Stars in Report Guru
           </p>
         </div>
         <div
           id="BestTechContainer"
-          class="bg-lightGrayishMagenta container flex flex-col w-[20rem] mx-auto rounded-md mb-3"
+          class="bg-lightGrayishMagenta container flex flex-col w-[20rem] mx-auto rounded-md mb-3 lg:flex-row lg:w-[25rem] lg:items-center lg:justify-center lg:h-12"
         >
-          <div class="flex flex-row items-center justify-center gap-2 m-1 p-2">
+          <div
+            class="flex flex-row items-center justify-center gap-2 m-1 p-2 lg:p-1 lg:m-0 lg:mr-5"
+          >
             <img src="./images/icon-star.svg" alt="star-icon" />
             <img src="./images/icon-star.svg" alt="star-icon" />
             <img src="./images/icon-star.svg" alt="star-icon" />
@@ -78,7 +87,7 @@
             <img src="./images/icon-star.svg" alt="star-icon" />
           </div>
           <p
-            class="text-veryDarkMagenta font-bold font-spartan text-center pb-2"
+            class="text-veryDarkMagenta font-bold font-spartan text-center pb-2 lg:pb-0 lg:pt-[0.3rem] lg:text-[1.2rem]"
           >
             Rated 5 Stars in BestTech
           </p>
@@ -86,10 +95,13 @@
       </div>
     </section>
 
-    <section id="testimonialSection" class="mt-11 mb-20">
+    <section
+      id="testimonialSection"
+      class="container mx-auto flex flex-col mt-11 mb-20 items-center justify-center lg:place-content-around gap-1 lg:gap-8 lg:max-w-[68rem] lg:flex-row"
+    >
       <div
         id="testimonial-1"
-        class="container mx-auto w-[20rem] bg-veryDarkMagenta rounded-md mb-4 p-7"
+        class="w-[20rem] bg-veryDarkMagenta rounded-md mb-4 p-8 lg:w-[30rem]"
       >
         <div class="flex gap-6">
           <img
@@ -97,7 +109,7 @@
             alt="colton-image"
             class="rounded-full w-[40px] h-[40px]"
           />
-          <div>
+          <div class="lg:text-[1.2rem]">
             <p class="font-spartan text-white font-medium -mb-1">
               Colton Smith
             </p>
@@ -106,7 +118,7 @@
         </div>
 
         <div class="pt-4">
-          <q class="font-spartan text-white">
+          <q class="font-spartan text-white lg:text-[1.2rem]">
             We needed the same printed design as the one we had ordered a week
             prior. Not only did they find the original order, but we also
             received it in time. Excellent!
@@ -115,7 +127,7 @@
       </div>
       <div
         id="testimonial-2"
-        class="container mx-auto w-[20rem] bg-veryDarkMagenta rounded-md mb-4 p-7"
+        class="w-[20rem] bg-veryDarkMagenta rounded-md mb-4 p-8 lg:w-[30rem] md:translate-y-4"
       >
         <div class="flex gap-6">
           <img
@@ -123,7 +135,7 @@
             alt="irene-image"
             class="rounded-full w-[40px] h-[40px]"
           />
-          <div>
+          <div class="lg:text-[1.2rem]">
             <p class="font-spartan text-white font-medium -mb-1">
               Irene Roberts
             </p>
@@ -132,7 +144,7 @@
         </div>
 
         <div class="pt-4">
-          <q class="font-spartan text-white">
+          <q class="font-spartan text-white lg:text-[1.2rem]">
             Customer service is always excellent and very quick turn around.
             Completely delighted with the simplicity of the purchase and the
             speed of delivery.
@@ -141,7 +153,7 @@
       </div>
       <div
         id="testimonial-3"
-        class="container mx-auto w-[20rem] bg-veryDarkMagenta rounded-md mb-4 p-7"
+        class="w-[20rem] bg-veryDarkMagenta rounded-md mb-4 p-8 lg:w-[30rem] md:translate-y-8"
       >
         <div class="flex gap-6">
           <img
@@ -149,14 +161,14 @@
             alt="anne-image"
             class="rounded-full w-[40px] h-[40px]"
           />
-          <div class="">
+          <div class="lg:text-[1.2rem]">
             <p class="font-spartan text-white font-medium -mb-1">Anne Walace</p>
             <p class="text-softPink font-spartan">Verified Buyer</p>
           </div>
         </div>
 
         <div class="pt-4">
-          <q class="font-spartan text-white">
+          <q class="font-spartan text-white lg:text-[1.2rem]">
             Put an order with this company and can only praise them for the very
             high standard. Will definitely use them again and recommend them to
             everyone!
