@@ -10,6 +10,9 @@ module.exports = {
         lightGrayishMagenta: "hsl(300, 24%, 96%)",
       },
     },
+    fontFamily: {
+      spartan: ["League Spartan", "sans-serif"],
+    },
   },
   plugins: [],
 };
